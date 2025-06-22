@@ -25,7 +25,9 @@ body {
     background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpabkg.jpg') top;
     background-size: cover;
     background-attachment: fixed;}
-
+#logo.power_logo {
+  background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat bottom center;
+}
 /* This is my custom upscaled background (not game background, but the blue-greyish one behind posts and your user profile etc.) */
 /* you can change it if you want. But it's nice. Save a copy if you worry about postimg dying */
 /* The original was just a bit too pixelated for my liking... they also stretch it across the entire back frame of whatever object is there */
