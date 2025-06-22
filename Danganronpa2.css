@@ -54,6 +54,12 @@ margin-left: -200px;},
 	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat center;
 	top: 0px;
 	border-bottom-color: #303030;}
+#h2 a {
+background-image:url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo2.png');
+background-size: 20%;
+background-position-y: 35px;
+border-bottom: 1px rgba(85, 78, 12, .9) solid;
+}
 
 /* Now this is the more tedious part, look at all the values and copy any that are */
 /* different to below so that they match the game theme you want */
