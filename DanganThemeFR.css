@@ -110,7 +110,7 @@ border-bottom: 1px rgba(10, 10, 10, .9) solid;
 }
 
 
-userinfo #userinfo_username .donateico {
+#userinfo #userinfo_username .donateico {
 margin-top: 33px;
 margin-left: 35px;
 display: inline-block;}
