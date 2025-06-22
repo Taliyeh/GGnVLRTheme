@@ -50,14 +50,32 @@ background-clip: border-box;
 border-bottom: 1px rgba(10, 10, 10, .9) solid;
 margin-left: -200px;
 }
-#logo.power_logo1,
-#logo.power_logo2,
+#logo.power_logo {background-image:url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png');
+	background-size:contain;
+	background-position-x: 48%;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-origin: padding-box;
+	background-clip: border-box;
+	border-bottom: 1px rgba(10, 10, 10, .9) solid;
+	margin-left: -200px;},
+#logo.power_logo2 {background-image:url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png');
+	background-size:contain;
+	background-position-x: 48%;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-origin: padding-box;
+	background-clip: border-box;
+	border-bottom: 1px rgba(10, 10, 10, .9) solid;
+	margin-left: -200px;},
 #logo.power_logo3 {
 	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat center;
 	top: 0px;
 	border-bottom-color: #303030;}
 #h2 a {
-background-image:url('images/gameseries/danganronpalogo2.png');
+background-image:url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo2.png');
 background-size: 20%;
 background-position-y: 35px;
 border-bottom: 1px rgba(85, 78, 12, .9) solid;
