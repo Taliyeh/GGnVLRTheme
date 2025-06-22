@@ -1,0 +1,103 @@
+/* Custom Game Room template */
+@import url('https://gazellegames.net/static/styles/game_room/style.css');			/* Main style from Gameroom */												
+@import url('https://gazellegames.net/static/styles/game_room/caticons.css');		/* Category icons from Gameroom */
+@import url('https://gazellegames.net/static/styles/game_room/gamethemes.css');		/* Custom game/profile themes */
+@import url('https://gazellegames.net/static/styles/game_room/webLinks.css'); 		/* Weblink icons from Gameroom */
+
+
+/* Main CSS from games (you need to edit the below) */
+
+/* READ from here down */
+/* Load Game Room, find a game torrent page that you like the theme of */
+/* Search for the game name in here: https://gazellegames.net/static/styles/game_room/gamethemes.css */
+/* If you find the code, then great, copy it or take note or just look at it */
+/* Now you will need to copy parts of that below to make your own custom Game Room */
+
+/* Note, you will need to manually make the directory extended correctly but-*/
+/* since I already did it for masseffect below, you can just change the .ttf file */
+/* Find the font family and src url and edit them to here, below is from mass effect */
+font-face {
+	font-family: "Zen Dots";
+	src: url('https://gazellegames.net/static/styles/game_room/fonts/zendots.ttf');}
+
+/* do the same below, change the bkg (background image) file to what you want */
+body {
+    background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpabkg.jpg') top;
+    background-size: cover;
+    background-attachment: fixed;}
+
+/* This is my custom upscaled background (not game background, but the blue-greyish one behind posts and your user profile etc.) */
+/* you can change it if you want. But it's nice. Save a copy if you worry about postimg dying */
+/* The original was just a bit too pixelated for my liking... they also stretch it across the entire back frame of whatever object is there */
+/* If you want the original, then you can change the image back to https://gazellegames.net/static/styles/game_room/images/smokeybackground.jpg */
+/* And also remove "background-repeat: repeat-y;" and change background-size to "cover" instead of "auto" */
+.box, table {
+	background: url('https://i.postimg.cc/k488sB2b/smokeybackground-N-x2.jpg');
+	background-size: auto;
+	background-repeat: repeat-y;}
+
+
+/* Change the logo below, do the same as before with the ttf and bkg */
+#logo.power_logo {background-image:url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png');
+	background-size:contain;
+	background-position-x: 48%;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-origin: padding-box;
+	background-clip: border-box;
+	border-bottom: 1px rgba(10, 10, 10, .9) solid;
+	margin-left: -200px;},
+#logo.power_logo {
+  background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat bottom center;
+}
+#logo.power_logo2 {
+	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat center;
+	top: 0px;
+	border-bottom-color: #303030;},
+#logo.power_logo3 {
+	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat center;
+	top: 0px;
+	border-bottom-color: #303030;}
+
+#h2 a {
+background-image:url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo2.png');
+background-size: 20%;
+background-position-y: 35px;
+border-bottom: 1px rgba(85, 78, 12, .9) solid;
+}
+
+/* Now this is the more tedious part, look at all the values and copy any that are */
+/* different to below so that they match the game theme you want */
+/* Sometimes there can be other values like lowercase etc, if you want you can copy in the stuff too */
+#menu {
+	font-family: Zen Dots;
+	font-size: 1.5em;
+	font-weight: 300;}
+#menu ul {
+	max-width: 1100px;
+	margin-top: -2px;
+	padding-right: 100px;}
+#menu ul a {color: #fff !important;}
+#menu ul a:hover {color: ff07b2cc !important;}
+
+.alertbar a {color: #fff; text-shadow: 1px 1px 2px #000}
+#userinfo {
+	background: rgba(28, 28, 28, 0.7);
+	border-bottom: 1px rgba(10, 10, 10, .9) solid}
+
+#userinfo #userinfo_username .donateico {
+	margin-top: 33px;
+	margin-left: 35px;
+	display: inline-block;}
+#userinfo #userinfo_username .donateico a {
+	font-family: 'Zen Dots';
+	color: #fff;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 2px #000}
+#userinfo #userinfo_username .donateico a:hover {color: #ff07b2cc; }
+
+/* Once you are done, you'll need to host this on github and then make the link into jsdlivr so that ggn can use it. */
+/* This can do the conversion it seems if you want it done automatically: https://www.jsdelivr.com/github */
+/* Or you can maybe use backblaze B2 free plan (create public bucket), the positive of which is edits are instant unlike jsdelivr */
