@@ -38,7 +38,7 @@ body {
 
 
 /* Change the logo below, do the same as before with the ttf and bkg */
-#logo {background-image:url('images/gameseries/danganronpalogo.png');
+#logo {background-image:url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png');
 background-size:contain;
 background-position-x: 48%;
 background-position-y: bottom;
