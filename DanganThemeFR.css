@@ -112,7 +112,7 @@ background-color: rgba(236, 28, 67, 0.8);
 .donateico span {
 position: relative;
 top: -2px;
-left: 15px;
+right: 15px;
 }
 
 .global_buffs {
