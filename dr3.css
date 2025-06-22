@@ -39,19 +39,15 @@ body {
 
 /* Change the logo below, do the same as before with the ttf and bkg */
 #logo {background-image:url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png');
-background-size:contain;
-background-position-x: 48%;
-background-position-y: bottom;
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-origin: padding-box;
-background-clip: border-box;
-border-bottom: 1px rgba(10, 10, 10, .9) solid;
-margin-left: -200px;},
-#logo.power_logo {
-	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat center;
-	top: 0px;
-	border-bottom-color: #303030;},
+	background-size:contain;
+	background-position-x: 48%;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-origin: padding-box;
+	background-clip: border-box;
+	border-bottom: 1px rgba(10, 10, 10, .9) solid;
+	margin-left: -200px;},
 #logo.power_logo2 {
 	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat center;
 	top: 0px;
