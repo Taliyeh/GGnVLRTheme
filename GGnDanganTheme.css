@@ -80,12 +80,13 @@ border-bottom: 1px rgba(85, 78, 12, .9) solid;
 	max-width: 1100px;
 	margin-top: -2px;
 	padding-right: 100px;
-	hover {color: ff07b2cc !important;}
 }
 
 #menu ul a:hover {color: ff07b2cc !important;}
 
-.alertbar a {color: #fff; text-shadow: 1px 1px 2px #000}
+#alertbar a {color: #fff; text-shadow: 1px 1px 2px #000}
+
+
 #userinfo {
 	background: rgba(28, 28, 28, 0.7);
 	border-bottom: 1px rgba(10, 10, 10, .9) solid}
@@ -101,6 +102,27 @@ border-bottom: 1px rgba(85, 78, 12, .9) solid;
 	letter-spacing: 1px;
 	text-shadow: 1px 1px 2px #000}
 #userinfo #userinfo_username .donateico a:hover {color: #ff07b2cc; }
+
+#searchbars ul li input {
+background-color: rgba(236, 28, 67, 0.8);
+}
+
+#content {
+background: rgba(199, 6, 42, 0.6);
+background: rgba(255, 7, 209, 0.5);
+background: rgba(236, 28, 67, 0.6);
+background: linear-gradient(to right, rgba(170, 7, 91, 0.9), rgba(236, 28, 67, 0.85));
+}
+
+.global_buffs {
+background: rgba(0,0,0,0.4);
+border: 2px solid #222;}
+
+.donateico span {
+position: relative;
+top: -2px;
+left: 15px;
+}
 
 /* Once you are done, you'll need to host this on github and then make the link into jsdlivr so that ggn can use it. */
 /* This can do the conversion it seems if you want it done automatically: https://www.jsdelivr.com/github */
