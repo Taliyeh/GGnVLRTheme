@@ -48,6 +48,9 @@ body {
 	background-clip: border-box;
 	border-bottom: 1px rgba(10, 10, 10, .9) solid;
 	margin-left: -200px;},
+#logo.power_logo {
+  background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat bottom center;
+}
 #logo.power_logo2 {
 	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/danganronpalogo.png') no-repeat center;
 	top: 0px;
